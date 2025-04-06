@@ -1,6 +1,7 @@
-# Basic MediatR library, alternative to popular .net MediatR library
+# Basic MediatR Library: An Alternative to the Popular .NET [MediatR](https://github.com/jbogard/MediatR "MediatR GitHub Repository") Library
 
-Use it like below:
+You can use the Basic MediatR library as follows:
 
-builder.Services.AddBasicMediatR(typeof(Program).Assembly); </br>
+```csharp
+builder.Services.AddBasicMediatR(typeof(Program).Assembly);
 var app = builder.Build();
