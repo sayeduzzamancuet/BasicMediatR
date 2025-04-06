@@ -2,5 +2,5 @@
 
 Use it like below:
 
-builder.Services.AddBasicMediatR(typeof(Program).Assembly);
+builder.Services.AddBasicMediatR(typeof(Program).Assembly); </br>
 var app = builder.Build();
